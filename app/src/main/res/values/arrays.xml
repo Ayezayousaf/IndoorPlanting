@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="task_array">
+        <item>Select Task</item>
+        <item>Watering</item>
+        <item>Fertilizing</item>
+        <item>Pruning</item>
+        <item>Repotting</item>
+    </string-array>
+    <string-array name="signup_types_array">
+        <item>Administrator</item>
+        <item>Public User</item>
+    </string-array>
+</resources>

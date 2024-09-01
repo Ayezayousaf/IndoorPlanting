@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "280891013862",
+    "project_id": "indp-839a3",
+    "storage_bucket": "indp-839a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280891013862:android:36f25f31cfb1aea1431927",
+        "android_client_info": {
+          "package_name": "com.nextgen.indoorplanting"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMjTyAGteo7mKwG9r2Sia9XrwEp3s47bk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

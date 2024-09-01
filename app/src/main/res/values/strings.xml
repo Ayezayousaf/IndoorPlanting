@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Indoor Planting</string>
+    <string-array name="soil_types">
+        <item>Loamy</item>
+        <item>Sandy</item>
+        <item>Clay</item>
+        <item>Silty</item>
+        <item>Peaty</item>
+        <item>Chalky</item>
+        <item>Gravelly</item>
+        <item>Mulchy</item>
+    </string-array>
+
+    <string-array name="sunlight_types">
+        <item>Full Sun</item>
+        <item>Partial Sun</item>
+        <item>Partial Shade</item>
+        <item>Full Shade</item>
+    </string-array>
+
+    <string-array name="watering_types">
+        <item>Light</item>
+        <item>Moderate</item>
+        <item>Frequent</item>
+    </string-array>
+
+    <string-array name="planting_seasons">
+        <item>Spring</item>
+        <item>Summer</item>
+        <item>Autumn</item>
+        <item>Winter</item>
+    </string-array>
+
+    <string-array name="planting_depths">
+        <item>2 inches</item>
+        <item>4 inches</item>
+        <item>6 inches</item>
+        <item>8 inches</item>
+    </string-array>
+
+</resources>

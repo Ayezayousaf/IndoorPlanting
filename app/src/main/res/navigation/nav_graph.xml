@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.nextgen.indoorplanting.AdminHomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_admin_home" />
+
+    <fragment
+        android:id="@+id/plantDetectorFragment"
+        android:name="com.nextgen.indoorplanting.PlantDetectorFragment"
+        android:label="Plant Detector"
+        tools:layout="@layout/fragment_plant_detector" />
+    <fragment
+        android:id="@+id/plantCareReminderFragment"
+        android:name="com.nextgen.indoorplanting.PlantCareReminderFragment"
+        android:label="Plant Care Reminder"
+        tools:layout="@layout/fragment_plant_care_reminder" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.nextgen.indoorplanting.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

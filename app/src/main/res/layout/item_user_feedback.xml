@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/card_gradient">
+
+        <!-- User Name -->
+        <TextView
+            android:id="@+id/user_name_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="4dp"/>
+
+        <!-- User Feedback -->
+        <TextView
+            android:id="@+id/user_feedback_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is a user feedback."
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:paddingBottom="4dp"/>
+
+        <!-- Timestamp -->
+        <TextView
+            android:id="@+id/posted_ago"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 Hours Ago | 10 Mints Ago | 1 Day Ago ..."
+            android:textColor="@android:color/white"
+            android:textSize="14sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            android:layout_marginBottom="8dp"/>
+        <LinearLayout
+            android:id="@+id/FeedBackOptionLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <!-- First ImageView with label -->
+            <LinearLayout
+                android:id="@+id/EditCommentLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_marginEnd="32dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_edit" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFCFC"
+                    android:gravity="center"
+            android:text="Edit Comments" />
+            </LinearLayout>
+
+            <!-- Second ImageView with label -->
+            <LinearLayout
+                android:id="@+id/DeleteCommentLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_marginEnd="32dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_users_feedback" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFCFC"
+                    android:gravity="center"
+                    android:text="Delete Comment" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
